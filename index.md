@@ -4,4 +4,4 @@
 - [4.Ansible----Some articles about Ansible](https://github.com/shangaijun/blog/blob/master/articles/ansible/index.md)
 - [5.Python----Some articles about Python](https://github.com/shangaijun/blog/blob/master/articles/python/index.md)
 
-* [I write the articles with markdown language, and using the online editor](https://stackedit.io/editor#)
+[I write the articles with markdown language, and using the online editor](https://stackedit.io/editor#)
