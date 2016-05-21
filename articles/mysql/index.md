@@ -1,1 +1,3 @@
-[1.Linux下如何释放内存、swap分区满了怎么办！](https://github.com/shangaijun/blog/blob/master/articles/linux/1.md)
+- [001.忘记MySQL密码,如何破?](https://github.com/shangaijun/blog/blob/master/articles/mysql/1.md)
+- [002.MySQL创建数据库](https://github.com/shangaijun/blog/blob/master/articles/mysql/2.md)
+- [003.MySQL显示连接删除数据库,查看数据库中表](https://github.com/shangaijun/blog/blob/master/articles/mysql/3.md)
