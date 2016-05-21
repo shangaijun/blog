@@ -194,7 +194,7 @@ root@mysql 06:10:19->help grant
 ```
 善用手册，善用手册，善用手册
 
-http://oldboy.blog.51cto.com/2561410/1566703
+[初学者学习linux运维的几个问题及老鸟建议](http://oldboy.blog.51cto.com/2561410/1566703)
 
 ###21.MySQL密码操作
 ```
@@ -202,5 +202,5 @@ http://oldboy.blog.51cto.com/2561410/1566703
 root@mysql 06:43:32->update user set password=PASSWORD('123') where user='root';
 root@mysql 06:45:43->set password=password('456');  #修改当前登陆用户
 ```
-忘记 MySQL密码？http://ashine.blog.51cto.com/1632639/1654067
+[忘记MySQL密码？](https://github.com/shangaijun/blog/blob/master/articles/mysql/mysql.misc.md)
 
