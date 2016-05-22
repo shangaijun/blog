@@ -21,24 +21,35 @@ mysql>GRANT ALL ON db1.* TO 'jeffrey'@'localhost';
 mysql>GRANT SELECT ON db2.invoice TO 'jeffrey'@'localhost';
 mysql>GRANT USAGE ON *.* TO 'jeffrey'@'localhost' WITH MAX_QUERIES_PER_HOUR 90;#创建了用户,但是没赋予权限的情况
 ```    
+```
+mysql>grant all on test.* to 'oldboy'@'localhost' identified by '123';
+mysql>flush privileges;
+```
 
 |grant |all privileges|on dbname.*|to 'username'@'localhost'|identified by 'passwd'|
 |:-----:|:-------------:|:-----------:|:------------------------:|:--------------------:|
 |   命令    |   权限       |      目标库.表      | 用户名@主机 |用户密码|
 
-mysql>grant all on test.* to 'oldboy'@'localhost' identified by 'oldboy123';
-mysql>flush privileges;
-```
 3.查看权限
 ```
-mysql> show grants for root@'localhost';
+mysql> show **grants** for root@'localhost';
 ```
 4.使用create和grant配合创建用户
+```
+help create;
+help create user;
+```
 ```
 mysql> CREATE USER 'jeffrey'@'localhost' IDENTIFIED WITH my_auth_plugin;
 mysql> create user oldgirl@'localhost' identified by 'passwd';
 mysql> show grants for oldgirl@'localhost';  #查看用户授权情况
-mysql> grant all on oldgirl.* to oldgirl@'localhost';
++----------------------------------------------------------------------------------------------------------------+
+| Grants for oldgirl@localhost                                                                                   |
++----------------------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'oldgirl'@'localhost' IDENTIFIED BY PASSWORD '*531E182E2F72080AB0740FE2F2D689DBE0146E04' |
++----------------------------------------------------------------------------------------------------------------+
+
+mysql> grant all on dbname.* to oldgirl@'localhost';
 mysql> show grants for oldgirl@'localhost';  #再次查看用户授权情况
 ```
 5.授权其他机器连接数据库
