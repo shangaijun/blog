@@ -21,11 +21,11 @@ mysql>GRANT ALL ON db1.* TO 'jeffrey'@'localhost';
 mysql>GRANT SELECT ON db2.invoice TO 'jeffrey'@'localhost';
 mysql>GRANT USAGE ON *.* TO 'jeffrey'@'localhost' WITH MAX_QUERIES_PER_HOUR 90;#创建了用户,但是没赋予权限的情况
 ```    
-```
-grant all privileges on dbname.* to 'username'@'localhost' identified by 'passwd'
-```
-命令	权限	目标库和表	用户名和主机	用户密码	
-```
+
+|grant |all privileges|on dbname.*|to 'username'@'localhost'|identified by 'passwd'|
+|:-----:|:-------------:|:-----------:|:------------------------:|:--------------------:|
+|   命令    |   权限       |      目标库.表      | 用户名@主机 |用户密码|
+
 mysql>grant all on test.* to 'oldboy'@'localhost' identified by 'oldboy123';
 mysql>flush privileges;
 ```
@@ -203,4 +203,6 @@ root@mysql 06:43:32->update user set password=PASSWORD('123') where user='root';
 root@mysql 06:45:43->set password=password('456');  #修改当前登陆用户
 ```
 [忘记MySQL密码？](https://github.com/shangaijun/blog/blob/master/articles/mysql/mysql.misc.md)
+
+
 
