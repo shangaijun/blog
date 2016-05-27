@@ -1,2 +1,1 @@
 - [1.Note of <<`The Docker Book`>>](https://github.com/shangaijun/blog/blob/master/articles/docker/1.md)
-- [2.How-to-ansible-review>>](https://github.com/shangaijun/blog/blob/master/articles/docker/2.md)
