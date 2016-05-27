@@ -65,7 +65,7 @@ mysql>show grants for test@'192.168.1.0/255.255.255.0';
 ```
 登陆测试:
 ```
-[ashang@desktop mysql]$ mysql -utest -ptest -S mysql.sock -h 192.168.1.15 -P 3306;
+[ashang@desktop mysql]$ mysql -utest -ptest -h 192.168.1.15 -P 3306;
 ```
 出现
 mysql>
@@ -214,6 +214,8 @@ root@mysql 06:43:32->update user set password=PASSWORD('123') where user='root';
 root@mysql 06:45:43->set password=password('456');  #修改当前登陆用户
 ```
 [忘记MySQL密码？](https://github.com/shangaijun/blog/blob/master/articles/mysql/mysql.misc.md)
+
+
 
 
 
