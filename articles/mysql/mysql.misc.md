@@ -33,6 +33,7 @@ mysql>flush privileges;
 3.查看权限
 ```
 mysql> show **grants** for root@'localhost';
+mysql> show **grants** for root@;
 ```
 4.使用create和grant配合创建用户
 ```
