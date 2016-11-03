@@ -193,8 +193,9 @@ prompt \u@hostname \r:\m:\s->
  #永久生效，修改本地的/etc/my.cnf，记住，是本地的，不是服务器端的
 ```
 [mysql]
-prompt=\\u@hostname \\r:\\m:\\s->    
+prompt=\\u@h \\r:\\m:\\s->    
 ```
+更多关于prompt command 的信息，请参考[prompt command](https://mariadb.com/kb/en/mariadb/mysql-command-line-client/)
 
 ###20.使用MySQL的帮助
 ```
