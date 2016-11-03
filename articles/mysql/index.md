@@ -1,5 +1,5 @@
-- [001.忘记MySQL密码,如何破?](https://github.com/shangaijun/blog/blob/master/articles/mysql/1.md)
-- [002.MySQL创建数据库](https://github.com/shangaijun/blog/blob/master/articles/mysql/2.md)
-- [003.MySQL显示连接删除数据库,查看数据库中表](https://github.com/shangaijun/blog/blob/master/articles/mysql/3.md)
-
-- [MySQL杂项](https://github.com/shangaijun/blog/blob/master/articles/mysql/mysql.misc.md)
+- [001.忘记MySQL密码,如何破?](https://github.com/shangaijun/blog/blob/master/articles/mysql/forget_password.md)
+- [002.MySQL创建数据库](https://github.com/shangaijun/blog/blob/master/articles/mysql/create_database.md)
+- [003.MySQL显示连接删除数据库,查看数据库中表](https://github.com/shangaijun/blog/blob/master/articles/mysql/table.md)
+- [004.MySQL中文乱码](https://github.com/shangaijun/blog/blob/master/articles/mysql/garbled.md)
+- [MySQL杂项](https://github.com/shangaijun/blog/blob/master/articles/mysql/mysql_misc.md)
