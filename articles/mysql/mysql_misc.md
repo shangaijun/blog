@@ -217,7 +217,12 @@ root@mysql 06:45:43->set password=password('456');  #修改当前登陆用户
 ```
 [忘记MySQL密码？](https://github.com/shangaijun/blog/blob/master/articles/mysql/mysql.misc.md)
 
-
-
+###22.中止正在进行的输入
+如果你决定不想执行正在输入过程中的一个命令,输入\c取消它:
+```
+mysql> SELECT
+    -> USER()
+    -> \c
+```
 
 
